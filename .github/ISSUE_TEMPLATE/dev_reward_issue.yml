@@ -1,0 +1,40 @@
+name: Add DevReward
+description: Add issue with the details of the DevReward
+title: "[DevReward]: Name of new issue"
+labels: ["DevReward"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill in the details of the DevReward        
+  - type: input
+    id: bounty-name
+    attributes:
+      label: Reward name
+      placeholder: Put the name here
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What is the scope of the task?
+      description: Brief description of the scope. What are the objectives, and what is the value added.
+    validations:
+      required: true
+  - type: dropdown
+    id: complexity
+    attributes:
+      label: Complexity of the task
+      description: Select the complexity of the task
+      options:
+        - Low
+        - Medium
+        - High
+    validations:
+      required: true
+  - type: input
+    id: reward-payout
+    attributes:
+      label: Amount to be payed out for completing the task (in CSPR)
+    validations:
+      required: true
