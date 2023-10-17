@@ -110,6 +110,7 @@ module.exports = {
                 "developers/writing-onchain-code/contract-vs-session",
                 "developers/writing-onchain-code/writing-session-code",
                 "developers/writing-onchain-code/testing-session-code",
+                "developers/writing-onchain-code/contract-hash-vs-package-hash",
                 "developers/writing-onchain-code/best-practices",
             ],
         },
@@ -225,6 +226,7 @@ module.exports = {
                 "operators/setup/basic-node-configuration",
                 "operators/setup/node-endpoints",
                 "operators/setup/install-node",
+                "operators/setup/fast-sync",
                 "operators/setup/open-files",
                 "operators/setup/upgrade",
                 "operators/setup/joining",
@@ -297,6 +299,7 @@ module.exports = {
     resources: [
         "resources/index",
         "resources/build-on-casper",
+        "resources/moving-to-casper",
         "resources/casper-open-source-software",
         "resources/quick-start",
         //"resources/sample-projects", // NEW CONTENT WILL BE HERE
